@@ -1,0 +1,15 @@
+.container-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-element h1{
+    font-size: 400%;
+}
+
+.img {
+    height: 500px;
+    width: 1000px;
+}

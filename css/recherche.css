@@ -1,0 +1,17 @@
+.container-recherche{
+    padding: 2%;
+}
+
+.ville a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ville{
+    padding: 1%;
+}
+
+.ville a:hover{
+    color:var(--Black-);
+}
