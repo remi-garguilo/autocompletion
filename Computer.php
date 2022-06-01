@@ -40,13 +40,6 @@ class Computer{
                     'contain'=> $contain
                 );
             }
-            for($i = 0; $i < $tab['contain'][$i];$i++){
-                foreach($tab['start'] as $element){
-                    if($element['nom'] == $tab['contain'][$i]['nom']){
-                        array_splice($tab['contain'],$i,1);
-                    }
-                }
-            }
         return $tab;
     }
 

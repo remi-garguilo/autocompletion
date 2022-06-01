@@ -16,19 +16,16 @@ require_once('controller_element.php');
 </head>
 <body>
 <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="index.php">Home</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" autocomplete="off" action="recherche.php" method="GET">
-                        <input class="form-control me-2" type="text" name="search" id="voiture" placeholder="Rechercher votre Voiture">
-                    </form>
-                </div>
-            </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                </li>
+            </ul>
+            <form class="form-inline" autocomplete="off" action="recherche.php" method="GET">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" name="search" id="computeur" type="submit">Search</button>
+            </form>
         </nav>
     </header>
     <div class="content">
