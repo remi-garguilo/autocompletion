@@ -1,6 +1,6 @@
 <?php
 $nomVille = isset($_GET['search'])? strip_tags($_GET['search']) :'';
-$bdd = new PDO("mysql:host=localhost;dbname=test",'root','root');
+$bdd = new PDO("mysql:host=localhost;dbname=remi-garguilo_autocompletion",'AC-rg','AC-rg');
 $bdd->setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
 $bdd->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
